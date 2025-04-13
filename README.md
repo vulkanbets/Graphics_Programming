@@ -1,1 +1,1 @@
-# Graphics_Programming
+# Graphics Programming
