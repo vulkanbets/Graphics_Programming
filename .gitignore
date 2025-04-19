@@ -1,0 +1,16 @@
+
+# Ignore everything by default
+*
+
+# But not the .gitignore file itself
+!.gitignore
+
+# Allow traversal into these directories
+!OpenGL/
+!OpenGL/Windows/
+!OpenGL/Windows/first_project/
+!OpenGL/Windows/first_project/first_project/
+
+# Allow specific files
+!OpenGL/Windows/first_project/first_project/glad.c
+!OpenGL/Windows/first_project/first_project/main.cpp
