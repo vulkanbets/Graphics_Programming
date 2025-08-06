@@ -13,14 +13,16 @@
 
 !OpenGL/Linux/
 !OpenGL/Linux/First_Project/
+!OpenGL/Linux/First_Project/src/
 
 
 # Allow specific files
 !OpenGL/Windows/first_project/first_project/glad.c
 !OpenGL/Windows/first_project/first_project/main.cpp
 
-!OpenGL/Linux/First_Project/*.cpp
-
-
+!OpenGL/Linux/First_Project/Makefile
+!OpenGL/Linux/First_Project/*.md
+!OpenGL/Linux/First_Project/src/*.cpp
+!OpenGL/Linux/First_Project/src/*.c
 
 
