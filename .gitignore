@@ -11,6 +11,16 @@
 !OpenGL/Windows/first_project/
 !OpenGL/Windows/first_project/first_project/
 
+!OpenGL/Linux/
+!OpenGL/Linux/First_Project/
+
+
 # Allow specific files
 !OpenGL/Windows/first_project/first_project/glad.c
 !OpenGL/Windows/first_project/first_project/main.cpp
+
+!OpenGL/Linux/First_Project/*.cpp
+
+
+
+
