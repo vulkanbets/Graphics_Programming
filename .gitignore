@@ -22,6 +22,7 @@
 
 !OpenGL/Linux/First_Project/Makefile
 !OpenGL/Linux/First_Project/*.md
+!OpenGL/Linux/First_Project/*.vimrc
 !OpenGL/Linux/First_Project/src/*.cpp
 !OpenGL/Linux/First_Project/src/*.c
 
