@@ -52,3 +52,8 @@ sudo apt install libglfw3 libglfw3-dev libgl1-mesa-dev libx11-dev
     - This writes ``` compile_commands.json ``` in the project root which is used by clangd.
 
 
+# Solutions to end of chapter exercises:
+
+### Exercise 5.1)
+**<u>Solution</u>**): Add three more vertices and and adjust vertices to align with each triangle endpoints. Also call ``` glDrawArrays() ``` with a value of `6` instead of `3`.
+![](./solution_1.png)
