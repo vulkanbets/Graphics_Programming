@@ -24,6 +24,7 @@ sudo apt install libglfw3 libglfw3-dev libgl1-mesa-dev libx11-dev
 1) **Conquer of Completion** (coc.nvim) used in conjuction with clangd for autocomplete, linting, jump to definitions, LSP engine etc...
 2) **NERDTree** (preservim/nerdtree) file system explorer.
 3) **Fuzzy File Finder** (junegunn/fzf) for efficient file searching.
+4) **Vim-Commentary** (tpope/vim-commentary) Use gcc to comment lines
 
 ## Configuring ``` .vimrc ``` for C++ IDE OpenGL development : 
 1) A copy of my ``` .vimrc ``` will be provided as a reference for key remaps and settings used.
@@ -52,8 +53,40 @@ sudo apt install libglfw3 libglfw3-dev libgl1-mesa-dev libx11-dev
     - This writes ``` compile_commands.json ``` in the project root which is used by clangd.
 
 
+
+
 # Solutions to end of chapter exercises:
+
+
 
 ### Exercise 5.1)
 **<u>Solution</u>**): Add three more vertices and and adjust vertices to align with each triangle endpoints. Also call ``` glDrawArrays() ``` with a value of `6` instead of `3`.
-![](./solution_1.png)
+
+
+![](./resources/solution_1.png)
+
+
+
+
+### Exercise 5.2)
+**<u>Step 1</u>**): Add vertices for first and second trinagle. 
+
+
+![](./resources/solution_5_2_1.png)
+
+
+
+### Exercise 5.2)
+**<u>Step 2</u>**): Create 2 Vetex arrays and vertex buffer objects. Bind each each similarly, but ensure the second attribute has an offset of 9 (to start at the second triangle vertex). 
+
+
+![](./resources/solution_5_2_2.png)
+
+
+
+### Exercise 5.2)
+**<u>Step 3</u>**): Bind first vertex array (First Triangle) the draw, then bind and draw the second vertex array. Repeat in a while loop. 
+
+
+![](./resources/solution_5_2_3.png)
+
